@@ -10,9 +10,9 @@
 	</parent>
 	<groupId>me.ctrlmaniac</groupId>
 	<artifactId>reactspring</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>reactspring</name>
-	<description>Demo project for Spring Boot</description>
+	<description>A guide about serving a react app with spring boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

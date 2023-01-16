@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "clients/*"
+  ],
+  "scripts": {
+    "collectclients": "bash collectclients.sh",
+    "build": "npx lerna exec -- npm run build",
+    "postbuild": "npm run collectclients",
+    "runserver": "mvnw spring-boot:run"
+  },
+  "devDependencies": {
+    "lerna": "^5.6.2"
+  }
+}
